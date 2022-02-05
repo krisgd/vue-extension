@@ -1,12 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "__MSG_extName__",
+  "name": "YT Downloader",
   "homepage_url": "http://localhost:8080/",
-  "description": "A Vue Browser Extension",
+  "description": "A Vue Browser Extension used with YT Downloader Server",
   "default_locale": "en",
   "permissions": [
     "<all_urls>",
-    "*://*/*"
+    "*://*/*",
+    "http://localhost/*"
   ],
   "icons": {
     "16": "icons/16.png",
@@ -21,7 +22,7 @@
   },
   "browser_action": {
     "default_popup": "popup.html",
-    "default_title": "__MSG_extName__",
+    "default_title": "YT Downloader",
     "default_icon": {
       "19": "icons/19.png",
       "38": "icons/38.png"
